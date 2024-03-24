@@ -13,7 +13,7 @@ RUN curl -O https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/linux_
     && rm snowsql-1.2.28-linux_x86_64.bash
 
 # Create the conda environment
-COPY environment.yml .
+COPY conda_env.yml .
 RUN conda env create \
     && conda init \
     && rm environment.yml

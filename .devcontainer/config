@@ -1,0 +1,10 @@
+# SnowSQL config. 
+# URL: https://lub40617.us-east-1.snowflakecomputing.com
+
+[connections.dev]
+accountname = IUVXAMC-EOB47838
+username = IFARIDICLDVRS
+password = -u@ruFOMawe2@A
+rolename = HOL_ROLE
+warehousename = HOL_WH
+dbname = HOL_DB
